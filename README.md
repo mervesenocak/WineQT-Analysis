@@ -3,14 +3,6 @@ WineQT Şarap Kalite Analizi
 
 Bu proje, WineQT veri setini kullanarak şarapların kimyasal özelliklerini analiz eden ve kalite tahmini yapan bir Python projesidir.
 
-İçerik
-
-wineqt_proje.py → Python kodları
-
-WineQT.csv → Veri seti
-
-README.md → Proje açıklaması
-
 Amaç
 
 WineQT veri seti kullanılarak şarapların kimyasal özellikleri ile kalite puanları arasındaki ilişkiyi analiz etmek ve şarap kalitesini tahmin etmek.
