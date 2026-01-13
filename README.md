@@ -1,50 +1,61 @@
 
-WineQT Şarap Kalite Analizi
+# 🍷 Wine Quality Analysis
 
-Bu proje, WineQT veri setini kullanarak şarapların kimyasal özelliklerini analiz eden ve kalite tahmini yapan bir Python projesidir.
+This project aims to analyze the relationship between the chemical properties of wines and their quality scores using the **WineQT** dataset.  
+The project includes data analysis, machine learning models, and performance evaluation.
 
-Amaç
+## 🎯 Project Objective
 
-WineQT veri seti kullanılarak şarapların kimyasal özellikleri ile kalite puanları arasındaki ilişkiyi analiz etmek ve şarap kalitesini tahmin etmek.
+- Analyze the chemical characteristics of wines
+- Build models to predict wine quality
+- Compare different machine learning algorithms
+- Practice the end-to-end data science workflow
 
-Kullanılan Teknolojiler
+## 📊 Dataset
 
-Python
+- **WineQT Dataset**
+- Features include:
+  - Fixed acidity
+  - Volatile acidity
+  - Citric acid
+  - Residual sugar
+  - Chlorides
+  - Free sulfur dioxide
+  - Total sulfur dioxide
+  - Density
+  - pH
+  - Sulphates
+  - Alcohol
+- Target variable:
+  - **Quality (Wine Quality Score)**
 
-Pandas, NumPy
+## 🧠 Methods Used
 
-Matplotlib, Seaborn
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature scaling
+- Machine learning models:
+  - Logistic Regression
+  - Random Forest Classifier
+- Model evaluation metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+  - ROC-AUC
 
-Scikit-learn (Logistic Regression, Random Forest)
+## 🛠️ Technologies
 
-Kurulum / Kullanım
+- Python 3
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-Projeyi bilgisayarınıza indirin
+## ▶️ How to Run
 
-Python ortamını hazırlayın
+1. Install required libraries:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
 
-Gerekli kütüphaneleri yükleyin:
-pip install pandas numpy matplotlib seaborn scikit-learn
-
-Terminal veya IDE üzerinden wineqt_proje.py dosyasını çalıştırın
-
-Açıklama
-
-Bu proje, şarapların kimyasal özelliklerini analiz eder ve kalite tahmini yapar.
-Yapılan işlemler:
-
-Veri ön işleme ve temizleme
-
-Aykırı değer analizi
-
-Özelliklerin dağılımı ve korelasyon analizi
-
-Logistic Regression ve Random Forest modelleriyle kalite tahmini
-
-Model doğrulama ve performans ölçümü
-
-Notlar
-
-WineQT.csv dosyası küçük boyutlu olduğu için projeyle birlikte paylaşılmıştır.
-
-Projeyi çalıştırmak için tüm kütüphanelerin yüklü olduğundan emin olun.
